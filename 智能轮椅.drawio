@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-30T12:43:22.037Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="E5aLoIWHbkQ3ScbQc7j0" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-30T12:45:00.932Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="cSo8oH6rlb5uzWY2gp9g" version="24.2.1" type="github">
   <diagram name="第 1 页" id="P7pqEGnPUfQCsjm25Q79">
-    <mxGraphModel dx="2374" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="2902" dy="981" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -121,13 +121,13 @@
           <mxGeometry x="-910" y="750" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nrPkCapQx03MoW446Du7-18" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-850" y="960" width="160" height="82.5" as="geometry" />
+          <mxGeometry x="-860" y="960" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="nrPkCapQx03MoW446Du7-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nrPkCapQx03MoW446Du7-18">
-          <mxGeometry width="160" height="82.50000000000001" as="geometry" />
+          <mxGeometry width="170" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-20" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;task1驱动消息推送&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;任务&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;优先级4&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;1.将驱动buff转发给驱动uart&lt;/div&gt;&lt;div style=&quot;&quot;&gt;2.无内容则休眠（用事件）&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="nrPkCapQx03MoW446Du7-18">
-          <mxGeometry x="7.271111111111111" y="6.875000000000002" width="145.45777777777778" height="69.73312500000002" as="geometry" />
+        <mxCell id="nrPkCapQx03MoW446Du7-20" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;task1驱动消息推送&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;任务&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;优先级4&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;1.将驱动buff转发给驱动uart&lt;/div&gt;&lt;div style=&quot;&quot;&gt;2.无内容则休眠（事件/消息队列）&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="nrPkCapQx03MoW446Du7-18">
+          <mxGeometry x="7.725555555555555" y="7.500000000000003" width="154.54888888888888" height="76.07250000000002" as="geometry" />
         </mxCell>
         <mxCell id="nrPkCapQx03MoW446Du7-21" value="驱动buff" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="-630" y="990" width="80" height="30" as="geometry" />
@@ -146,7 +146,7 @@
             <mxPoint x="-470" y="1060" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.044;entryY=0.536;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nrPkCapQx03MoW446Du7-21" target="nrPkCapQx03MoW446Du7-20">
+        <mxCell id="nrPkCapQx03MoW446Du7-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nrPkCapQx03MoW446Du7-21" target="nrPkCapQx03MoW446Du7-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nrPkCapQx03MoW446Du7-44" value="异常状态标志&lt;div&gt;向前向后&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
