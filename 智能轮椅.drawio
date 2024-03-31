@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-31T07:59:02.146Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="nzm5vKKV1mQTU8S-dRh0" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-31T07:59:18.828Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="i-JzUGIZzqujwfSts6LS" version="24.2.1" type="github">
   <diagram name="第 1 页" id="P7pqEGnPUfQCsjm25Q79">
     <mxGraphModel dx="2487" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -118,13 +118,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nrPkCapQx03MoW446Du7-32" value="" style="group" parent="c9U10E2EW6yQxdV2xRp9-11" vertex="1" connectable="0">
-          <mxGeometry x="40" y="130" width="190" height="180" as="geometry" />
+          <mxGeometry x="40" y="130" width="190" height="190" as="geometry" />
         </mxCell>
         <mxCell id="nrPkCapQx03MoW446Du7-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="nrPkCapQx03MoW446Du7-32" vertex="1">
-          <mxGeometry width="190" height="180" as="geometry" />
+          <mxGeometry width="190" height="190" as="geometry" />
         </mxCell>
         <mxCell id="nrPkCapQx03MoW446Du7-34" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;初始化&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;1.初始化硬件&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-各模块正常通信&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-读取手表初始xy电压值&lt;/div&gt;&lt;div style=&quot;&quot;&gt;2.初始化各变量&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3.启动任务&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-启动task1&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;驱动消息推送&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;任务&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-启动task3、4、5检测任务&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-等待task3、4、5检测任务初始化完成&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-启动task2监听任务&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-应答&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;task3、4、5检测任务ack&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="nrPkCapQx03MoW446Du7-32" vertex="1">
-          <mxGeometry x="8.63" y="13.9275" width="171.37" height="154.8225" as="geometry" />
+          <mxGeometry x="8.63" y="14.70125" width="171.37" height="163.42374999999998" as="geometry" />
         </mxCell>
         <mxCell id="c9U10E2EW6yQxdV2xRp9-3" value="" style="group" vertex="1" connectable="0" parent="c9U10E2EW6yQxdV2xRp9-11">
           <mxGeometry y="-264" width="420" height="280" as="geometry" />
