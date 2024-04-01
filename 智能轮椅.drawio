@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-01T06:09:53.857Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="B0-Xcx3b2mf7W0vWaC-F" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-01T06:10:11.801Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="GDOMyKqlohxjofmFkvIt" version="24.2.1" type="github">
   <diagram name="第 1 页" id="P7pqEGnPUfQCsjm25Q79">
     <mxGraphModel dx="1947" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -357,7 +357,7 @@
         <mxCell id="oUMoxg-CZdzu6CMFuKBr-197" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oUMoxg-CZdzu6CMFuKBr-166">
           <mxGeometry y="80" width="540" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oUMoxg-CZdzu6CMFuKBr-198" value="异常状态标志" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="oUMoxg-CZdzu6CMFuKBr-197">
+        <mxCell id="oUMoxg-CZdzu6CMFuKBr-198" value="运动状态标志" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="oUMoxg-CZdzu6CMFuKBr-197">
           <mxGeometry width="60" height="40" as="geometry">
             <mxRectangle width="60" height="40" as="alternateBounds" />
           </mxGeometry>
