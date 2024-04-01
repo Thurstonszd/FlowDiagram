@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-03-31T08:36:00.902Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="ZY6vfVqrhJvIqIb4vs9O" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-01T03:51:39.321Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="CMDSpZ5DCYOsWJ2UlTN1" version="24.2.1" type="github">
   <diagram name="第 1 页" id="P7pqEGnPUfQCsjm25Q79">
-    <mxGraphModel dx="2487" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="2360" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="c9U10E2EW6yQxdV2xRp9-11" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-1160" y="1020" width="1110" height="610" as="geometry" />
+        <mxCell id="c9U10E2EW6yQxdV2xRp9-11" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-1150" y="1010" width="1110" height="610" as="geometry" />
         </mxCell>
         <mxCell id="nrPkCapQx03MoW446Du7-10" value="EDChairv0.1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="c9U10E2EW6yQxdV2xRp9-11" vertex="1">
           <mxGeometry x="525" width="60" height="30" as="geometry" />
@@ -68,7 +68,7 @@
             <mxPoint x="23" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="c9U10E2EW6yQxdV2xRp9-11" source="nrPkCapQx03MoW446Du7-64" edge="1" target="nrPkCapQx03MoW446Du7-24">
+        <mxCell id="nrPkCapQx03MoW446Du7-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="c9U10E2EW6yQxdV2xRp9-11" source="nrPkCapQx03MoW446Du7-64" target="nrPkCapQx03MoW446Du7-24" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="649.9999999999998" y="696.2530769230771" as="sourcePoint" />
             <mxPoint x="940" y="550" as="targetPoint" />
@@ -126,7 +126,7 @@
         <mxCell id="nrPkCapQx03MoW446Du7-34" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;初始化&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;1.初始化硬件&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-各模块正常通信&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-读取手柄初始xy电压值&lt;/div&gt;&lt;div style=&quot;&quot;&gt;2.初始化各变量&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3.启动任务&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-启动task1&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;驱动消息推送&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;任务&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-启动task3、4、5检测任务&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-等待task3、4、5检测任务初始化完成&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-启动task2监听任务&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-应答&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;task3、4、5检测任务ack&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="nrPkCapQx03MoW446Du7-32" vertex="1">
           <mxGeometry x="8.63" y="14.70125" width="171.37" height="163.42374999999998" as="geometry" />
         </mxCell>
-        <mxCell id="c9U10E2EW6yQxdV2xRp9-3" value="" style="group" vertex="1" connectable="0" parent="c9U10E2EW6yQxdV2xRp9-11">
+        <mxCell id="c9U10E2EW6yQxdV2xRp9-3" value="" style="group" parent="c9U10E2EW6yQxdV2xRp9-11" vertex="1" connectable="0">
           <mxGeometry y="-264" width="420" height="280" as="geometry" />
         </mxCell>
         <mxCell id="kne6DeHZvwvVoVqGHP-4-1" value="遥控" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="c9U10E2EW6yQxdV2xRp9-3" vertex="1">
