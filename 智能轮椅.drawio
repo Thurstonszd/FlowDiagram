@@ -1,223 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2024-04-01T06:14:03.974Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="3T5s2OqB71SDDtbUPmLF" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-01T06:25:07.026Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="AcwkNB3lz9r9Sb7I_AoR" version="24.2.1" type="github">
   <diagram name="第 1 页" id="P7pqEGnPUfQCsjm25Q79">
-    <mxGraphModel dx="1947" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1832" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="c9U10E2EW6yQxdV2xRp9-11" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="-1150" y="1010" width="1110" height="610" as="geometry" />
-        </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-10" value="EDChairv0.1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="c9U10E2EW6yQxdV2xRp9-11" vertex="1">
-          <mxGeometry x="525" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="c9U10E2EW6yQxdV2xRp9-11" vertex="1">
-          <mxGeometry y="30" width="1110" height="580" as="geometry" />
-        </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-23" value="" style="group" parent="c9U10E2EW6yQxdV2xRp9-11" vertex="1" connectable="0">
-          <mxGeometry x="850" y="370" width="180" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="nrPkCapQx03MoW446Du7-23" vertex="1">
-          <mxGeometry width="180" height="179.99999999999997" as="geometry" />
-        </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-25" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;task5&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;坡度检测任务&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;优先级6&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;初始化：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-等待初始化task回传ack&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;loop：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;运&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;1.定时读取GSi2c角速度数据并进行积分&lt;/div&gt;&lt;div style=&quot;&quot;&gt;2.解析，若异常，读取运动状态，根据运动状态标记异常（向前向后）&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="nrPkCapQx03MoW446Du7-23" vertex="1">
-          <mxGeometry x="8.18" y="15" width="163.63999999999996" height="152.145" as="geometry" />
-        </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-3" value="U/COSiii" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="c9U10E2EW6yQxdV2xRp9-11" vertex="1">
-          <mxGeometry y="30" width="90" height="53.07692307692307" as="geometry" />
-        </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-18" value="" style="group" parent="c9U10E2EW6yQxdV2xRp9-11" vertex="1" connectable="0">
-          <mxGeometry x="40" y="359.99692307692294" width="170" height="119.4230769230769" as="geometry" />
-        </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="nrPkCapQx03MoW446Du7-18" vertex="1">
-          <mxGeometry width="170" height="119.4230769230769" as="geometry" />
-        </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-20" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;task1驱动消息推送&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;任务&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;优先级4&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;1.将驱动buff转发给驱动uart&lt;/div&gt;&lt;div style=&quot;&quot;&gt;2.无内容则休眠（事件/消息队列）&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="nrPkCapQx03MoW446Du7-18" vertex="1">
-          <mxGeometry x="7.725555555555554" y="9.951923076923078" width="154.54888888888888" height="100.94235576923079" as="geometry" />
-        </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-21" value="驱动buff" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="c9U10E2EW6yQxdV2xRp9-11" vertex="1">
-          <mxGeometry x="260" y="399.8046153846153" width="79.99999999999999" height="39.8076923076923" as="geometry" />
-        </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-13" value="" style="group" parent="c9U10E2EW6yQxdV2xRp9-11" vertex="1" connectable="0">
-          <mxGeometry x="415" y="150" width="140" height="230" as="geometry" />
-        </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="nrPkCapQx03MoW446Du7-13" vertex="1">
-          <mxGeometry width="140" height="230.00000000000009" as="geometry" />
-        </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-15" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;task2遥控监听任务&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;优先级5&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;1.若正常状态&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-监听遥控uart，并转发给驱动buff&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;2.若路况禁止前行&lt;/div&gt;&lt;div&gt;-将&lt;span style=&quot;background-color: initial;&quot;&gt;前向指令转为刹车指令，写入&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;驱动buff&lt;/span&gt;&lt;/div&gt;&lt;div&gt;3.若路况禁止后退&lt;/div&gt;&lt;div&gt;-将&lt;span style=&quot;background-color: initial;&quot;&gt;前向指令转为刹车指令&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;，&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;写入&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;驱动buff&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4.读取GSi2c加速度数据，判断运动状态，并更新&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="nrPkCapQx03MoW446Du7-13" vertex="1">
-          <mxGeometry x="6.3650505050505055" y="16.43130952380953" width="127.27272727272725" height="197.14285714285722" as="geometry" />
-        </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.002;exitY=0.562;exitDx=0;exitDy=0;exitPerimeter=0;" parent="c9U10E2EW6yQxdV2xRp9-11" source="nrPkCapQx03MoW446Du7-14" target="nrPkCapQx03MoW446Du7-21" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="410" y="378.2692307692307" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="c9U10E2EW6yQxdV2xRp9-11" source="nrPkCapQx03MoW446Du7-21" target="nrPkCapQx03MoW446Du7-19" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-44" value="异常状态标志&lt;div&gt;向前向后&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="c9U10E2EW6yQxdV2xRp9-11" vertex="1">
-          <mxGeometry x="660" y="260.00307692307683" width="100" height="66.34615384615384" as="geometry" />
-        </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="c9U10E2EW6yQxdV2xRp9-11" source="nrPkCapQx03MoW446Du7-44" target="nrPkCapQx03MoW446Du7-14" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="c9U10E2EW6yQxdV2xRp9-11" source="nrPkCapQx03MoW446Du7-25" target="nrPkCapQx03MoW446Du7-44" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-82" value="前向/后向异常" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nrPkCapQx03MoW446Du7-63" vertex="1" connectable="0">
-          <mxGeometry x="-0.2653" y="2" relative="1" as="geometry">
-            <mxPoint x="23" y="-2" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="c9U10E2EW6yQxdV2xRp9-11" source="nrPkCapQx03MoW446Du7-64" target="nrPkCapQx03MoW446Du7-24" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="649.9999999999998" y="696.2530769230771" as="sourcePoint" />
-            <mxPoint x="940" y="550" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="c9U10E2EW6yQxdV2xRp9-11" source="nrPkCapQx03MoW446Du7-64" target="nrPkCapQx03MoW446Du7-72" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-64" value="运动状态&lt;div&gt;（向前向后)&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="c9U10E2EW6yQxdV2xRp9-11" vertex="1">
-          <mxGeometry x="540" y="539.9961538461539" width="90" height="53.07692307692307" as="geometry" />
-        </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-68" value="" style="group" parent="c9U10E2EW6yQxdV2xRp9-11" vertex="1" connectable="0">
-          <mxGeometry x="849.9999999999999" y="50" width="180" height="159.2307692307692" as="geometry" />
-        </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-69" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="nrPkCapQx03MoW446Du7-68" vertex="1">
-          <mxGeometry width="180" height="159.2307692307692" as="geometry" />
-        </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-70" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;task3后&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;向检测任务&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;优先级6&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;初始化：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-判断后向路况状态&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-发送消息到初始化task&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-等待初始化task回传ack&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;loop：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;1.定时读取超声波uart数据&lt;/div&gt;&lt;div style=&quot;&quot;&gt;2.&lt;span style=&quot;background-color: initial;&quot;&gt;解析，异常则标记后向异常，正常标记正常&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-wrap: nowrap; color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E5%9D%A1%E5%BA%A6%E5%BC%82%E5%B8%B8%E6%A0%87%E5%BF%97%22%20style%3D%22ellipse%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22310%22%20y%3D%22680%22%20width%3D%2290%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="nrPkCapQx03MoW446Du7-68" vertex="1">
-          <mxGeometry x="8.18" y="13.269230769230766" width="141.81999999999996" height="132.69230769230765" as="geometry" />
-        </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-71" value="" style="group" parent="c9U10E2EW6yQxdV2xRp9-11" vertex="1" connectable="0">
-          <mxGeometry x="850" y="208.18000000000006" width="180" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-72" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="nrPkCapQx03MoW446Du7-71" vertex="1">
-          <mxGeometry width="180" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-73" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;task4&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;前向检测任务&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;优先级6&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;初始化：&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-判断前向路况状态&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-发送消息到初始化task&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-等待初始化task回传ack&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;loop：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;1.定时，若为向前状态，读取TOFuart数据并存储&lt;/div&gt;&lt;div style=&quot;&quot;&gt;2.若正常，调用算法解析，若地面异常，标志为前向异常&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-wrap: nowrap; background-color: initial;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E5%9D%A1%E5%BA%A6%E5%BC%82%E5%B8%B8%E6%A0%87%E5%BF%97%22%20style%3D%22ellipse%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22310%22%20y%3D%22680%22%20width%3D%2290%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="nrPkCapQx03MoW446Du7-71" vertex="1">
-          <mxGeometry x="8.18" y="14.16666666666667" width="163.63999999999996" height="143.69250000000002" as="geometry" />
-        </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="c9U10E2EW6yQxdV2xRp9-11" source="nrPkCapQx03MoW446Du7-73" target="nrPkCapQx03MoW446Du7-44" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-81" value="前向异常" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nrPkCapQx03MoW446Du7-75" vertex="1" connectable="0">
-          <mxGeometry x="0.0662" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" parent="c9U10E2EW6yQxdV2xRp9-11" source="nrPkCapQx03MoW446Du7-70" target="nrPkCapQx03MoW446Du7-44" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-80" value="后向异常" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nrPkCapQx03MoW446Du7-76" vertex="1" connectable="0">
-          <mxGeometry x="-0.4665" y="-4" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="c9U10E2EW6yQxdV2xRp9-11" source="nrPkCapQx03MoW446Du7-14" target="nrPkCapQx03MoW446Du7-64" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-32" value="" style="group" parent="c9U10E2EW6yQxdV2xRp9-11" vertex="1" connectable="0">
-          <mxGeometry x="40" y="130" width="190" height="190" as="geometry" />
-        </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="nrPkCapQx03MoW446Du7-32" vertex="1">
-          <mxGeometry width="190" height="190" as="geometry" />
-        </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-34" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;初始化&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;1.初始化硬件&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-各模块正常通信&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-读取手柄初始xy电压值&lt;/div&gt;&lt;div style=&quot;&quot;&gt;2.初始化各变量&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3.启动任务&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-启动task1&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;驱动消息推送&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;任务&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-启动task3、4、5检测任务&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-等待task3、4、5检测任务初始化完成&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-启动task2监听任务&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-应答&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;task3、4、5检测任务ack&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="nrPkCapQx03MoW446Du7-32" vertex="1">
-          <mxGeometry x="8.63" y="14.70125" width="171.37" height="163.42374999999998" as="geometry" />
-        </mxCell>
-        <mxCell id="c9U10E2EW6yQxdV2xRp9-3" value="" style="group" parent="c9U10E2EW6yQxdV2xRp9-11" vertex="1" connectable="0">
-          <mxGeometry y="-264" width="420" height="280" as="geometry" />
-        </mxCell>
-        <mxCell id="kne6DeHZvwvVoVqGHP-4-1" value="遥控" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="c9U10E2EW6yQxdV2xRp9-3" vertex="1">
-          <mxGeometry y="200" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="NinFL8VWbI65WirlYmD8-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;width=5;" parent="c9U10E2EW6yQxdV2xRp9-3" source="kne6DeHZvwvVoVqGHP-4-4" target="kne6DeHZvwvVoVqGHP-4-15" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="NinFL8VWbI65WirlYmD8-4" value="I2C" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NinFL8VWbI65WirlYmD8-3" vertex="1" connectable="0">
-          <mxGeometry x="0.3333" y="2" relative="1" as="geometry">
-            <mxPoint x="2" y="7" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kne6DeHZvwvVoVqGHP-4-4" value="主控" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="c9U10E2EW6yQxdV2xRp9-3" vertex="1">
-          <mxGeometry x="180" y="90" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="kne6DeHZvwvVoVqGHP-4-5" value="驱动" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="c9U10E2EW6yQxdV2xRp9-3" vertex="1">
-          <mxGeometry x="340" y="200" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="kne6DeHZvwvVoVqGHP-4-6" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="c9U10E2EW6yQxdV2xRp9-3" source="kne6DeHZvwvVoVqGHP-4-5" target="kne6DeHZvwvVoVqGHP-4-1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="230" y="240" as="sourcePoint" />
-            <mxPoint x="150" y="210" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="210" y="260" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kne6DeHZvwvVoVqGHP-4-8" value="RS232" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kne6DeHZvwvVoVqGHP-4-6" vertex="1" connectable="0">
-          <mxGeometry x="0.0354" y="1" relative="1" as="geometry">
-            <mxPoint x="15" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kne6DeHZvwvVoVqGHP-4-9" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.868;exitY=-0.02;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitPerimeter=0;" parent="c9U10E2EW6yQxdV2xRp9-3" source="kne6DeHZvwvVoVqGHP-4-1" target="kne6DeHZvwvVoVqGHP-4-4" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="270" y="210" as="sourcePoint" />
-            <mxPoint x="320" y="160" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="110" y="160" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kne6DeHZvwvVoVqGHP-4-10" value="RS232" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kne6DeHZvwvVoVqGHP-4-9" vertex="1" connectable="0">
-          <mxGeometry x="-0.0499" y="2" relative="1" as="geometry">
-            <mxPoint x="6" y="3" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kne6DeHZvwvVoVqGHP-4-11" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="c9U10E2EW6yQxdV2xRp9-3" source="kne6DeHZvwvVoVqGHP-4-4" target="kne6DeHZvwvVoVqGHP-4-5" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="260" y="155" as="sourcePoint" />
-            <mxPoint x="310" y="105" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="340" y="150" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kne6DeHZvwvVoVqGHP-4-12" value="RS232" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kne6DeHZvwvVoVqGHP-4-11" vertex="1" connectable="0">
-          <mxGeometry x="-0.2498" y="-8" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NinFL8VWbI65WirlYmD8-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;shape=link;" parent="c9U10E2EW6yQxdV2xRp9-3" source="kne6DeHZvwvVoVqGHP-4-13" target="kne6DeHZvwvVoVqGHP-4-4" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="170" y="110" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="135" y="110" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NinFL8VWbI65WirlYmD8-6" value="UART" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NinFL8VWbI65WirlYmD8-5" vertex="1" connectable="0">
-          <mxGeometry x="-0.5678" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kne6DeHZvwvVoVqGHP-4-13" value="超声波" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="c9U10E2EW6yQxdV2xRp9-3" vertex="1">
-          <mxGeometry x="110" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="kne6DeHZvwvVoVqGHP-4-15" value="GS" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="c9U10E2EW6yQxdV2xRp9-3" vertex="1">
-          <mxGeometry x="195" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="kne6DeHZvwvVoVqGHP-4-16" value="TOF" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="c9U10E2EW6yQxdV2xRp9-3" vertex="1">
-          <mxGeometry x="280" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="NinFL8VWbI65WirlYmD8-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1.011;entryY=0.21;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;" parent="c9U10E2EW6yQxdV2xRp9-3" source="kne6DeHZvwvVoVqGHP-4-16" target="kne6DeHZvwvVoVqGHP-4-4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="NinFL8VWbI65WirlYmD8-8" value="UART" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NinFL8VWbI65WirlYmD8-7" vertex="1" connectable="0">
-          <mxGeometry x="-0.6117" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="oUMoxg-CZdzu6CMFuKBr-3" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="oUMoxg-CZdzu6CMFuKBr-1" target="oUMoxg-CZdzu6CMFuKBr-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -355,10 +141,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="oUMoxg-CZdzu6CMFuKBr-207" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
-          <mxGeometry x="-590" y="747" width="360" height="80" as="geometry" />
+          <mxGeometry x="-640" y="760" width="360.0000000000002" height="80" as="geometry" />
         </mxCell>
         <mxCell id="oUMoxg-CZdzu6CMFuKBr-208" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oUMoxg-CZdzu6CMFuKBr-207">
-          <mxGeometry width="360" height="40" as="geometry" />
+          <mxGeometry width="360.0000000000002" height="40" as="geometry" />
         </mxCell>
         <mxCell id="oUMoxg-CZdzu6CMFuKBr-209" value="运功状态" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rowspan=2;colspan=1;" vertex="1" parent="oUMoxg-CZdzu6CMFuKBr-208">
           <mxGeometry width="60" height="80" as="geometry">
@@ -391,7 +177,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="oUMoxg-CZdzu6CMFuKBr-215" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oUMoxg-CZdzu6CMFuKBr-207">
-          <mxGeometry y="40" width="360" height="40" as="geometry" />
+          <mxGeometry y="40" width="360.0000000000002" height="40" as="geometry" />
         </mxCell>
         <mxCell id="oUMoxg-CZdzu6CMFuKBr-216" value="运动状态" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="oUMoxg-CZdzu6CMFuKBr-215">
           <mxGeometry width="60" height="40" as="geometry">
@@ -421,6 +207,217 @@
         <mxCell id="oUMoxg-CZdzu6CMFuKBr-221" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="oUMoxg-CZdzu6CMFuKBr-215">
           <mxGeometry x="300" width="60" height="40" as="geometry">
             <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nrPkCapQx03MoW446Du7-10" value="EDChairv0.1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-625" y="1010" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nrPkCapQx03MoW446Du7-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1150" y="1040" width="1110" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="nrPkCapQx03MoW446Du7-23" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-300" y="1440" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="nrPkCapQx03MoW446Du7-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="nrPkCapQx03MoW446Du7-23" vertex="1">
+          <mxGeometry width="180" height="179.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="nrPkCapQx03MoW446Du7-25" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;task5&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;坡度检测任务&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;优先级6&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;初始化：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-等待初始化task回传ack&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;loop：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;运&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;1.定时读取GSi2c角速度数据并进行积分&lt;/div&gt;&lt;div style=&quot;&quot;&gt;2.解析，若异常，读取运动状态，根据运动状态标记异常（向前向后）&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="nrPkCapQx03MoW446Du7-23" vertex="1">
+          <mxGeometry x="8.18" y="15" width="163.63999999999996" height="152.145" as="geometry" />
+        </mxCell>
+        <mxCell id="nrPkCapQx03MoW446Du7-3" value="U/COSiii" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-1150" y="1040" width="90" height="53.07692307692307" as="geometry" />
+        </mxCell>
+        <mxCell id="nrPkCapQx03MoW446Du7-18" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-1110" y="1369.996923076923" width="170" height="119.4230769230769" as="geometry" />
+        </mxCell>
+        <mxCell id="nrPkCapQx03MoW446Du7-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="nrPkCapQx03MoW446Du7-18" vertex="1">
+          <mxGeometry width="170" height="119.4230769230769" as="geometry" />
+        </mxCell>
+        <mxCell id="nrPkCapQx03MoW446Du7-20" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;task1驱动消息推送&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;任务&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;优先级4&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;1.将驱动buff转发给驱动uart&lt;/div&gt;&lt;div style=&quot;&quot;&gt;2.无内容则休眠（事件/消息队列）&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="nrPkCapQx03MoW446Du7-18" vertex="1">
+          <mxGeometry x="7.725555555555554" y="9.951923076923078" width="154.54888888888888" height="100.94235576923079" as="geometry" />
+        </mxCell>
+        <mxCell id="nrPkCapQx03MoW446Du7-21" value="驱动buff" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="-890" y="1409.8046153846153" width="79.99999999999999" height="39.8076923076923" as="geometry" />
+        </mxCell>
+        <mxCell id="nrPkCapQx03MoW446Du7-13" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-735" y="1160" width="140" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="nrPkCapQx03MoW446Du7-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="nrPkCapQx03MoW446Du7-13" vertex="1">
+          <mxGeometry width="140" height="230.00000000000009" as="geometry" />
+        </mxCell>
+        <mxCell id="nrPkCapQx03MoW446Du7-15" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;task2遥控监听任务&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;优先级5&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;1.若正常状态&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-监听遥控uart，并转发给驱动buff&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;2.若路况禁止前行&lt;/div&gt;&lt;div&gt;-将&lt;span style=&quot;background-color: initial;&quot;&gt;前向指令转为刹车指令，写入&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;驱动buff&lt;/span&gt;&lt;/div&gt;&lt;div&gt;3.若路况禁止后退&lt;/div&gt;&lt;div&gt;-将&lt;span style=&quot;background-color: initial;&quot;&gt;前向指令转为刹车指令&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;，&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;写入&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;驱动buff&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4.读取GSi2c加速度数据，判断运动状态，并更新&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="nrPkCapQx03MoW446Du7-13" vertex="1">
+          <mxGeometry x="6.3650505050505055" y="16.43130952380953" width="127.27272727272725" height="197.14285714285722" as="geometry" />
+        </mxCell>
+        <mxCell id="nrPkCapQx03MoW446Du7-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.002;exitY=0.562;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="nrPkCapQx03MoW446Du7-14" target="nrPkCapQx03MoW446Du7-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-740" y="1388.2692307692307" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nrPkCapQx03MoW446Du7-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nrPkCapQx03MoW446Du7-21" target="nrPkCapQx03MoW446Du7-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nrPkCapQx03MoW446Du7-44" value="异常状态标志&lt;div&gt;向前向后&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-490" y="1292.9630769230766" width="100" height="66.34615384615384" as="geometry" />
+        </mxCell>
+        <mxCell id="nrPkCapQx03MoW446Du7-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nrPkCapQx03MoW446Du7-44" target="nrPkCapQx03MoW446Du7-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nrPkCapQx03MoW446Du7-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="nrPkCapQx03MoW446Du7-25" target="nrPkCapQx03MoW446Du7-44" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nrPkCapQx03MoW446Du7-82" value="前向/后向异常" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nrPkCapQx03MoW446Du7-63" vertex="1" connectable="0">
+          <mxGeometry x="-0.2653" y="2" relative="1" as="geometry">
+            <mxPoint x="23" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nrPkCapQx03MoW446Du7-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="nrPkCapQx03MoW446Du7-64" target="nrPkCapQx03MoW446Du7-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-500.0000000000002" y="1706.253076923077" as="sourcePoint" />
+            <mxPoint x="-210" y="1560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nrPkCapQx03MoW446Du7-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nrPkCapQx03MoW446Du7-64" target="nrPkCapQx03MoW446Du7-72" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nrPkCapQx03MoW446Du7-64" value="运动状态&lt;div&gt;（向前向后)&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-625" y="1609.996153846154" width="90" height="53.07692307692307" as="geometry" />
+        </mxCell>
+        <mxCell id="nrPkCapQx03MoW446Du7-68" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-300.0000000000001" y="1060" width="180" height="159.2307692307692" as="geometry" />
+        </mxCell>
+        <mxCell id="nrPkCapQx03MoW446Du7-69" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="nrPkCapQx03MoW446Du7-68" vertex="1">
+          <mxGeometry width="180" height="159.2307692307692" as="geometry" />
+        </mxCell>
+        <mxCell id="nrPkCapQx03MoW446Du7-70" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;task3超声波&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;检测任务&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;优先级6&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;初始化：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-判断后向路况状态&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-发送消息到初始化task&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-等待初始化task回传ack&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;loop：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;1.定时读取超声波uart数据&lt;/div&gt;&lt;div style=&quot;&quot;&gt;2.&lt;span style=&quot;background-color: initial;&quot;&gt;解析，异常则标记后向异常，正常标记正常&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-wrap: nowrap; color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E5%9D%A1%E5%BA%A6%E5%BC%82%E5%B8%B8%E6%A0%87%E5%BF%97%22%20style%3D%22ellipse%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22310%22%20y%3D%22680%22%20width%3D%2290%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="nrPkCapQx03MoW446Du7-68" vertex="1">
+          <mxGeometry x="8.18" y="13.269230769230766" width="141.81999999999996" height="132.69230769230765" as="geometry" />
+        </mxCell>
+        <mxCell id="nrPkCapQx03MoW446Du7-71" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-300" y="1226.14" width="180" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="nrPkCapQx03MoW446Du7-72" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="nrPkCapQx03MoW446Du7-71" vertex="1">
+          <mxGeometry width="180" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="nrPkCapQx03MoW446Du7-73" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;task4&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TOF检测任务&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;优先级6&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;初始化：&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-判断前向路况状态&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-发送消息到初始化task&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-等待初始化task回传ack&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;loop：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;1.定时，若为向前运动状态，读取TOFuart数据并存储&lt;/div&gt;&lt;div style=&quot;&quot;&gt;2.若正常，调用算法解析，若地面异常，标志为前向异常&lt;/div&gt;&lt;div style=&quot;&quot;&gt;3.若异常，对比初始状态值&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-wrap: nowrap; background-color: initial;&quot;&gt;3.%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E5%9D%A1%E5%BA%A6%E5%BC%82%E5%B8%B8%E6%A0%87%E5%BF%97%22%20style%3D%22ellipse%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22310%22%20y%3D%22680%22%20width%3D%2290%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="nrPkCapQx03MoW446Du7-71" vertex="1">
+          <mxGeometry x="8.18" y="4.47" width="161.82" height="185.53" as="geometry" />
+        </mxCell>
+        <mxCell id="nrPkCapQx03MoW446Du7-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nrPkCapQx03MoW446Du7-73" target="nrPkCapQx03MoW446Du7-44" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nrPkCapQx03MoW446Du7-81" value="前向异常" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nrPkCapQx03MoW446Du7-75" vertex="1" connectable="0">
+          <mxGeometry x="0.0662" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nrPkCapQx03MoW446Du7-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" parent="1" source="nrPkCapQx03MoW446Du7-70" target="nrPkCapQx03MoW446Du7-44" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nrPkCapQx03MoW446Du7-80" value="后向异常" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nrPkCapQx03MoW446Du7-76" vertex="1" connectable="0">
+          <mxGeometry x="-0.4665" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nrPkCapQx03MoW446Du7-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nrPkCapQx03MoW446Du7-14" target="nrPkCapQx03MoW446Du7-64" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nrPkCapQx03MoW446Du7-32" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-1110" y="1140" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="nrPkCapQx03MoW446Du7-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="nrPkCapQx03MoW446Du7-32" vertex="1">
+          <mxGeometry width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="nrPkCapQx03MoW446Du7-34" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;初始化&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;1.初始化硬件&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-各模块正常通信&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-读取手柄初始xy电压值&lt;/div&gt;&lt;div style=&quot;&quot;&gt;2.初始化各变量&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3.启动任务&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-启动task1&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;驱动消息推送&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;任务&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-启动task3、4、5检测任务&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-等待task3、4、5检测任务初始化完成&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-启动task2监听任务&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-应答&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;task3、4、5检测任务ack&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="nrPkCapQx03MoW446Du7-32" vertex="1">
+          <mxGeometry x="8.63" y="14.70125" width="171.37" height="163.42374999999998" as="geometry" />
+        </mxCell>
+        <mxCell id="c9U10E2EW6yQxdV2xRp9-3" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-1150" y="746" width="420" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="kne6DeHZvwvVoVqGHP-4-1" value="遥控" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="c9U10E2EW6yQxdV2xRp9-3" vertex="1">
+          <mxGeometry y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NinFL8VWbI65WirlYmD8-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;width=5;" parent="c9U10E2EW6yQxdV2xRp9-3" source="kne6DeHZvwvVoVqGHP-4-4" target="kne6DeHZvwvVoVqGHP-4-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NinFL8VWbI65WirlYmD8-4" value="I2C" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NinFL8VWbI65WirlYmD8-3" vertex="1" connectable="0">
+          <mxGeometry x="0.3333" y="2" relative="1" as="geometry">
+            <mxPoint x="2" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kne6DeHZvwvVoVqGHP-4-4" value="主控" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="c9U10E2EW6yQxdV2xRp9-3" vertex="1">
+          <mxGeometry x="180" y="90" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kne6DeHZvwvVoVqGHP-4-5" value="驱动" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="c9U10E2EW6yQxdV2xRp9-3" vertex="1">
+          <mxGeometry x="340" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kne6DeHZvwvVoVqGHP-4-6" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="c9U10E2EW6yQxdV2xRp9-3" source="kne6DeHZvwvVoVqGHP-4-5" target="kne6DeHZvwvVoVqGHP-4-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="240" as="sourcePoint" />
+            <mxPoint x="150" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kne6DeHZvwvVoVqGHP-4-8" value="RS232" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kne6DeHZvwvVoVqGHP-4-6" vertex="1" connectable="0">
+          <mxGeometry x="0.0354" y="1" relative="1" as="geometry">
+            <mxPoint x="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kne6DeHZvwvVoVqGHP-4-9" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.868;exitY=-0.02;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitPerimeter=0;" parent="c9U10E2EW6yQxdV2xRp9-3" source="kne6DeHZvwvVoVqGHP-4-1" target="kne6DeHZvwvVoVqGHP-4-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="210" as="sourcePoint" />
+            <mxPoint x="320" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kne6DeHZvwvVoVqGHP-4-10" value="RS232" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kne6DeHZvwvVoVqGHP-4-9" vertex="1" connectable="0">
+          <mxGeometry x="-0.0499" y="2" relative="1" as="geometry">
+            <mxPoint x="6" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kne6DeHZvwvVoVqGHP-4-11" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="c9U10E2EW6yQxdV2xRp9-3" source="kne6DeHZvwvVoVqGHP-4-4" target="kne6DeHZvwvVoVqGHP-4-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="155" as="sourcePoint" />
+            <mxPoint x="310" y="105" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kne6DeHZvwvVoVqGHP-4-12" value="RS232" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kne6DeHZvwvVoVqGHP-4-11" vertex="1" connectable="0">
+          <mxGeometry x="-0.2498" y="-8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NinFL8VWbI65WirlYmD8-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;shape=link;" parent="c9U10E2EW6yQxdV2xRp9-3" source="kne6DeHZvwvVoVqGHP-4-13" target="kne6DeHZvwvVoVqGHP-4-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="135" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NinFL8VWbI65WirlYmD8-6" value="UART" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NinFL8VWbI65WirlYmD8-5" vertex="1" connectable="0">
+          <mxGeometry x="-0.5678" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kne6DeHZvwvVoVqGHP-4-13" value="超声波" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="c9U10E2EW6yQxdV2xRp9-3" vertex="1">
+          <mxGeometry x="110" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kne6DeHZvwvVoVqGHP-4-15" value="GS" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="c9U10E2EW6yQxdV2xRp9-3" vertex="1">
+          <mxGeometry x="195" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kne6DeHZvwvVoVqGHP-4-16" value="TOF" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="c9U10E2EW6yQxdV2xRp9-3" vertex="1">
+          <mxGeometry x="280" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NinFL8VWbI65WirlYmD8-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1.011;entryY=0.21;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;" parent="c9U10E2EW6yQxdV2xRp9-3" source="kne6DeHZvwvVoVqGHP-4-16" target="kne6DeHZvwvVoVqGHP-4-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NinFL8VWbI65WirlYmD8-8" value="UART" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NinFL8VWbI65WirlYmD8-7" vertex="1" connectable="0">
+          <mxGeometry x="-0.6117" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
