@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-06T08:16:42.558Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="JlAkKlyXn8ggYNqinOPe" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-06T08:18:25.686Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="exKqz950jsL2cCA10ml_" version="24.2.2" type="github">
   <diagram name="第 1 页" id="P7pqEGnPUfQCsjm25Q79">
-    <mxGraphModel dx="1742" dy="295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="2004" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -337,7 +337,7 @@
         <mxCell id="NinFL8VWbI65WirlYmD8-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;width=5;" parent="c9U10E2EW6yQxdV2xRp9-3" source="kne6DeHZvwvVoVqGHP-4-4" target="kne6DeHZvwvVoVqGHP-4-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NinFL8VWbI65WirlYmD8-4" value="I2C" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NinFL8VWbI65WirlYmD8-3" vertex="1" connectable="0">
+        <mxCell id="NinFL8VWbI65WirlYmD8-4" value="I2C2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NinFL8VWbI65WirlYmD8-3" vertex="1" connectable="0">
           <mxGeometry x="0.3333" y="2" relative="1" as="geometry">
             <mxPoint x="2" y="7" as="offset" />
           </mxGeometry>
@@ -352,14 +352,12 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="230" y="240" as="sourcePoint" />
             <mxPoint x="150" y="210" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="210" y="260" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kne6DeHZvwvVoVqGHP-4-8" value="RS232" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kne6DeHZvwvVoVqGHP-4-6" vertex="1" connectable="0">
-          <mxGeometry x="0.0354" y="1" relative="1" as="geometry">
-            <mxPoint x="15" as="offset" />
+        <mxCell id="-xTEvu45VsTtZgL97f9B-3" value="urat" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="kne6DeHZvwvVoVqGHP-4-6">
+          <mxGeometry x="-0.0799" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kne6DeHZvwvVoVqGHP-4-9" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.868;exitY=-0.02;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitPerimeter=0;" parent="c9U10E2EW6yQxdV2xRp9-3" source="kne6DeHZvwvVoVqGHP-4-1" target="kne6DeHZvwvVoVqGHP-4-4" edge="1">
@@ -369,11 +367,6 @@
             <Array as="points">
               <mxPoint x="110" y="160" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kne6DeHZvwvVoVqGHP-4-10" value="RS232" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kne6DeHZvwvVoVqGHP-4-9" vertex="1" connectable="0">
-          <mxGeometry x="-0.0499" y="2" relative="1" as="geometry">
-            <mxPoint x="6" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-xTEvu45VsTtZgL97f9B-1" value="urat5_rx" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="kne6DeHZvwvVoVqGHP-4-9">
@@ -390,11 +383,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kne6DeHZvwvVoVqGHP-4-12" value="RS232" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kne6DeHZvwvVoVqGHP-4-11" vertex="1" connectable="0">
-          <mxGeometry x="-0.2498" y="-8" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="-xTEvu45VsTtZgL97f9B-2" value="urat5_tx" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="kne6DeHZvwvVoVqGHP-4-11">
           <mxGeometry x="-0.8598" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
@@ -408,7 +396,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NinFL8VWbI65WirlYmD8-6" value="UART" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NinFL8VWbI65WirlYmD8-5" vertex="1" connectable="0">
+        <mxCell id="NinFL8VWbI65WirlYmD8-6" value="UART4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NinFL8VWbI65WirlYmD8-5" vertex="1" connectable="0">
           <mxGeometry x="-0.5678" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -425,7 +413,7 @@
         <mxCell id="NinFL8VWbI65WirlYmD8-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1.011;entryY=0.21;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;" parent="c9U10E2EW6yQxdV2xRp9-3" source="kne6DeHZvwvVoVqGHP-4-16" target="kne6DeHZvwvVoVqGHP-4-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NinFL8VWbI65WirlYmD8-8" value="UART" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NinFL8VWbI65WirlYmD8-7" vertex="1" connectable="0">
+        <mxCell id="NinFL8VWbI65WirlYmD8-8" value="UART2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NinFL8VWbI65WirlYmD8-7" vertex="1" connectable="0">
           <mxGeometry x="-0.6117" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
