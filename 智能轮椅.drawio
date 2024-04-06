@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-05T10:43:10.476Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="X4uBgS_8mj5Nu1k1pG-a" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-06T08:16:42.558Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="JlAkKlyXn8ggYNqinOPe" version="24.2.2" type="github">
   <diagram name="第 1 页" id="P7pqEGnPUfQCsjm25Q79">
-    <mxGraphModel dx="2874" dy="1090" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1742" dy="295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -376,6 +376,11 @@
             <mxPoint x="6" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="-xTEvu45VsTtZgL97f9B-1" value="urat5_rx" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="kne6DeHZvwvVoVqGHP-4-9">
+          <mxGeometry x="0.7875" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="kne6DeHZvwvVoVqGHP-4-11" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="c9U10E2EW6yQxdV2xRp9-3" source="kne6DeHZvwvVoVqGHP-4-4" target="kne6DeHZvwvVoVqGHP-4-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="260" y="155" as="sourcePoint" />
@@ -387,6 +392,11 @@
         </mxCell>
         <mxCell id="kne6DeHZvwvVoVqGHP-4-12" value="RS232" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kne6DeHZvwvVoVqGHP-4-11" vertex="1" connectable="0">
           <mxGeometry x="-0.2498" y="-8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-xTEvu45VsTtZgL97f9B-2" value="urat5_tx" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="kne6DeHZvwvVoVqGHP-4-11">
+          <mxGeometry x="-0.8598" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
