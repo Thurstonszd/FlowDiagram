@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-06T09:10:19.821Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="w9NpCvetYNkTznRvUbPL" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-08T07:43:32.206Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="ZwWNBGe1hawRam3V6d41" version="24.2.2" type="github">
   <diagram name="第 1 页" id="P7pqEGnPUfQCsjm25Q79">
-    <mxGraphModel dx="2306" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="2315" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -224,7 +224,7 @@
         <mxCell id="nrPkCapQx03MoW446Du7-25" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;task5&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;坡度检测任务&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;优先级6&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;初始化：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-等待初始化task回传ack&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;loop：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;运&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;1.定时读取GSi2c角速度数据并进行积分&lt;/div&gt;&lt;div style=&quot;&quot;&gt;2.解析，若异常，读取运动状态，根据运动状态标记异常（向前向后）&lt;/div&gt;&lt;div style=&quot;&quot;&gt;3.若正常，标记正常&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="nrPkCapQx03MoW446Du7-23" vertex="1">
           <mxGeometry x="8.18" y="15" width="163.63999999999996" height="152.145" as="geometry" />
         </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-3" value="U/COSiii" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="nrPkCapQx03MoW446Du7-3" value="freeRTOS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1140" y="980" width="90" height="53.07692307692307" as="geometry" />
         </mxCell>
         <mxCell id="nrPkCapQx03MoW446Du7-18" value="" style="group" parent="1" vertex="1" connectable="0">
@@ -355,7 +355,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-xTEvu45VsTtZgL97f9B-3" value="uart" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="kne6DeHZvwvVoVqGHP-4-6">
+        <mxCell id="-xTEvu45VsTtZgL97f9B-3" value="uart" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="kne6DeHZvwvVoVqGHP-4-6" vertex="1" connectable="0">
           <mxGeometry x="-0.0799" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -369,7 +369,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-xTEvu45VsTtZgL97f9B-1" value="uart5_rx" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="kne6DeHZvwvVoVqGHP-4-9">
+        <mxCell id="-xTEvu45VsTtZgL97f9B-1" value="uart5_rx" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="kne6DeHZvwvVoVqGHP-4-9" vertex="1" connectable="0">
           <mxGeometry x="0.7875" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -383,7 +383,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-xTEvu45VsTtZgL97f9B-2" value="uart5_tx" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="kne6DeHZvwvVoVqGHP-4-11">
+        <mxCell id="-xTEvu45VsTtZgL97f9B-2" value="uart5_tx" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="kne6DeHZvwvVoVqGHP-4-11" vertex="1" connectable="0">
           <mxGeometry x="-0.8598" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
