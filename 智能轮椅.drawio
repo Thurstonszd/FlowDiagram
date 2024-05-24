@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-05-24T02:37:44.104Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="9G97CJdeID8og87UTeS6" version="24.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-24T02:39:00.618Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="kcVWsBH6eUqPfun6UdRW" version="24.4.6" type="github">
   <diagram name="第 1 页" id="P7pqEGnPUfQCsjm25Q79">
-    <mxGraphModel dx="2290" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1943" dy="398" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="oUMoxg-CZdzu6CMFuKBr-207" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" parent="1" vertex="1">
-          <mxGeometry x="-1080" y="320" width="360.0000000000002" height="80" as="geometry" />
+          <mxGeometry x="-1130" y="490" width="360.0000000000002" height="80" as="geometry" />
         </mxCell>
         <mxCell id="oUMoxg-CZdzu6CMFuKBr-208" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="oUMoxg-CZdzu6CMFuKBr-207" vertex="1">
           <mxGeometry width="360.0000000000002" height="40" as="geometry" />
@@ -454,32 +454,32 @@
             <mxRectangle width="64" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oUMoxg-CZdzu6CMFuKBr-179" value="TOF前向异常停止" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="oUMoxg-CZdzu6CMFuKBr-177" vertex="1">
+        <mxCell id="oUMoxg-CZdzu6CMFuKBr-179" value="超声波后向异常停止" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="oUMoxg-CZdzu6CMFuKBr-177" vertex="1">
           <mxGeometry x="64" width="65" height="40" as="geometry">
             <mxRectangle width="65" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oUMoxg-CZdzu6CMFuKBr-180" value="GS前向异常" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="oUMoxg-CZdzu6CMFuKBr-177" vertex="1">
+        <mxCell id="oUMoxg-CZdzu6CMFuKBr-180" value="GS后向异常停止" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="oUMoxg-CZdzu6CMFuKBr-177" vertex="1">
           <mxGeometry x="129" width="64" height="40" as="geometry">
             <mxRectangle width="64" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oUMoxg-CZdzu6CMFuKBr-181" value="超声波前向停止" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="oUMoxg-CZdzu6CMFuKBr-177" vertex="1">
+        <mxCell id="oUMoxg-CZdzu6CMFuKBr-181" value="reserve" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="oUMoxg-CZdzu6CMFuKBr-177" vertex="1">
           <mxGeometry x="193" width="65" height="40" as="geometry">
             <mxRectangle width="65" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oUMoxg-CZdzu6CMFuKBr-182" value="VS前向异常减速" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="oUMoxg-CZdzu6CMFuKBr-177" vertex="1">
+        <mxCell id="oUMoxg-CZdzu6CMFuKBr-182" value="reserve" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="oUMoxg-CZdzu6CMFuKBr-177" vertex="1">
           <mxGeometry x="258" width="64" height="40" as="geometry">
             <mxRectangle width="64" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oUMoxg-CZdzu6CMFuKBr-183" value="超声波后向异常" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="oUMoxg-CZdzu6CMFuKBr-177" vertex="1">
+        <mxCell id="oUMoxg-CZdzu6CMFuKBr-183" value="reserve" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="oUMoxg-CZdzu6CMFuKBr-177" vertex="1">
           <mxGeometry x="322" width="65" height="40" as="geometry">
             <mxRectangle width="65" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oUMoxg-CZdzu6CMFuKBr-184" value="GS后向异常" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="oUMoxg-CZdzu6CMFuKBr-177" vertex="1">
+        <mxCell id="oUMoxg-CZdzu6CMFuKBr-184" value="reserve" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="oUMoxg-CZdzu6CMFuKBr-177" vertex="1">
           <mxGeometry x="387" width="64" height="40" as="geometry">
             <mxRectangle width="64" height="40" as="alternateBounds" />
           </mxGeometry>
