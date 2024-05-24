@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-24T02:22:43.292Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="gSbDv0rhl_9Nv-ZUrh2A" version="24.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-24T02:27:23.905Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="DdZudIZcAuALq0KOOYC_" version="24.4.6" type="github">
   <diagram name="第 1 页" id="P7pqEGnPUfQCsjm25Q79">
     <mxGraphModel dx="2098" dy="477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -292,7 +292,7 @@
           <mxGeometry x="8.63" y="14.70125" width="171.37" height="163.42374999999998" as="geometry" />
         </mxCell>
         <mxCell id="c9U10E2EW6yQxdV2xRp9-3" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="-1150" y="650" width="420" height="280" as="geometry" />
+          <mxGeometry x="-1150" y="650" width="1230" height="280" as="geometry" />
         </mxCell>
         <mxCell id="kne6DeHZvwvVoVqGHP-4-1" value="遥控" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="c9U10E2EW6yQxdV2xRp9-3" vertex="1">
           <mxGeometry y="200" width="80" height="80" as="geometry" />
@@ -379,6 +379,23 @@
         <mxCell id="NinFL8VWbI65WirlYmD8-8" value="UART2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NinFL8VWbI65WirlYmD8-7" vertex="1" connectable="0">
           <mxGeometry x="-0.6117" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KqeyQKV9Gto-Q9uuhjta-5" value="超声波" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="c9U10E2EW6yQxdV2xRp9-3">
+          <mxGeometry x="30" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KqeyQKV9Gto-Q9uuhjta-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="c9U10E2EW6yQxdV2xRp9-3" target="kne6DeHZvwvVoVqGHP-4-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="55" y="130" />
+            </Array>
+            <mxPoint x="55" y="50" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KqeyQKV9Gto-Q9uuhjta-13" value="UART4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KqeyQKV9Gto-Q9uuhjta-12">
+          <mxGeometry x="-0.5678" relative="1" as="geometry">
+            <mxPoint y="-15" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
