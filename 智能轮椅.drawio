@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-24T02:40:33.090Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="W295nRq9N2zIaIN36PRm" version="24.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-24T02:41:10.154Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="gAbZO4W7R7BALxnXTLOm" version="24.4.6" type="github">
   <diagram name="第 1 页" id="P7pqEGnPUfQCsjm25Q79">
     <mxGraphModel dx="2154" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -97,7 +97,7 @@
         <mxCell id="nrPkCapQx03MoW446Du7-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="nrPkCapQx03MoW446Du7-18" vertex="1">
           <mxGeometry width="170" height="119.4230769230769" as="geometry" />
         </mxCell>
-        <mxCell id="nrPkCapQx03MoW446Du7-20" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;task1驱动消息推送&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;任务&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;优先级&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;1.将驱动buff转发给驱动uart&lt;/div&gt;&lt;div style=&quot;&quot;&gt;2.无内容则休眠（任务直达消息）&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="nrPkCapQx03MoW446Du7-18" vertex="1">
+        <mxCell id="nrPkCapQx03MoW446Du7-20" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;task1驱动消息推送&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;任务&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;优先级：5&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;1.将驱动buff转发给驱动uart&lt;/div&gt;&lt;div style=&quot;&quot;&gt;2.无内容则休眠（任务直达消息）&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="nrPkCapQx03MoW446Du7-18" vertex="1">
           <mxGeometry x="7.725555555555554" y="9.951923076923078" width="154.54888888888888" height="100.94235576923079" as="geometry" />
         </mxCell>
         <mxCell id="nrPkCapQx03MoW446Du7-21" value="驱动buff" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
